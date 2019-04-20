@@ -37,7 +37,7 @@ func main() {
 
 	// warm up
 	fmt.Println("Going to ping", *address)
-	index <- 0
+	index <- -1
 	doPing(*address, make(chan float64, 1), index)
 
 	startTime := time.Now()

@@ -15,7 +15,7 @@ Running with the defaults, `go run httpping` results in:
 
 ```
 Going to ping https://api.kontakt.io/healthcheck
-(#   0) Reply [200 OK]: 2 bytes, 398 ms
+(#  -1) Reply [200 OK]: 2 bytes, 398 ms
 (#   0) Reply [200 OK]: 2 bytes, 68 ms
 (#   2) Reply [200 OK]: 2 bytes, 70 ms
 (#   1) Reply [200 OK]: 2 bytes, 71 ms
